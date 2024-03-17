@@ -65,6 +65,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Çek";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button3
             // 
@@ -96,6 +97,7 @@
             this.Controls.Add(this.Vatandaş);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
 
